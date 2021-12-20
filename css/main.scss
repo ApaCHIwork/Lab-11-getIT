@@ -1,0 +1,41 @@
+@import "_request_call";
+@import "_modal_request_call";
+@import "_home";
+@import "_aboutUs";
+@import "_blog";
+@import "_vacancies";
+@import "_sign";
+// ------------------ Home end------------------
+
+
+
+*{
+  margin: 0px;
+}
+.btn{
+  border-radius: 35px;
+  background-color: #02cfe7;
+  border: none;
+  .link-button{
+    font-size: 18px;
+  }
+}
+.active{
+  color: #02cfe7;
+  // background: -webkit-linear-gradient(right,  #cb61f4 0,  #cb61f4 33.3%, #fd2968 33.3%, #fd2968 66.6%,#02cfe7 66.6%, #02cfe7) bottom no-repeat;
+  background: -o-linear-gradient(right, #cb61f4 0, #cb61f4 33.3%, #fd2968 33.3%, #fd2968 66.6%, #02cfe7 66.6%, #02cfe7) bottom no-repeat;
+  background: linear-gradient(to right, #cb61f4 0, #cb61f4 33.3%, #fd2968 33.3%, #fd2968 66.6%, #02cfe7 66.6%, #02cfe7) bottom no-repeat;
+  background-size: 80% 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
